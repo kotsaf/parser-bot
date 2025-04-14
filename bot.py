@@ -83,7 +83,7 @@ def main():
     init_db()
 
     # создание приложения
-    application = Application.builder().token("7764808434:AAFeCMDWzH4rfgOZYSuvUQP8BVQMj_JgOrs").build()
+    application = Application.builder().token("").build()
 
     # добавление обработчиков
     application.add_handler(CommandHandler("start", start))
